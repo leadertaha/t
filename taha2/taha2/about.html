@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="icon" href="10.jpg" />
+        <link rel="shortcut" href="10.jpg" />
+        <link rel="apple-touch-icon" href="10.jpg" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Html</title>
+    </head>
+
+    <body>
+
+        <style>
+ *{
+    padding: 0;
+    margin: 0;
+}
+            body{
+              background-color: #CDE8E5;
+            background-image: url(13.jpg );
+            background-size: cover;
+            background-repeat:no-repeat;
+
+
+        }
+        a{
+            color: blanchedalmond;
+        }
+        header{
+            color: beige;
+            height: 100px;
+    width: 100%;
+    background-image: linear-gradient(to right,rgb(126, 47, 47),rgb(70, 8, 8));
+
+}
+        nav{
+    width: 70%;
+    text-align: right;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+nav li{
+    display: inline-block;
+    line-height: 100px;
+    width: 100px;
+    text-align: center;
+}
+nav a:hover{
+    background-color: aliceblue;
+    color: #4D869C;
+    width: 100%;
+    height: 100%;
+}
+p{
+    color: beige;
+    font-size: larger;
+    text-align: center;
+    border: 1px;
+}
+p1{
+    color: beige;
+}
+
+.about-me {
+  background-color: #454545;
+  overflow: hidden;
+    background-image: url(13.jpg );
+
+}
+.about-me .image{
+  float: left;
+  width: 40%;
+}
+.about-me .image img {
+  width: 100%;
+}
+.about-me .info {
+  float: left;;
+  width: 60%;
+
+}
+.about-me .info h2{
+  margin: 30px 0 20px 40px;
+  color: #ddd;
+}
+.about-me .info > p{
+  margin: 0 0 10px 40px;
+
+}
+.about-me .info > p:last-of-type{
+  margin-top:25px;
+
+}
+.about-me .info  p{
+  line-height: 1.6;
+  color: #ffbf00;
+}
+.about-me .info .hobbies{
+  overflow: hidden;
+  margin: 20px 0 0 40px;
+  color: #ededf1;
+}
+.about-me .info .hobbies .content{
+  width: 50%;
+  min-height: 100px;
+  overflow: hidden;
+}
+
+.about-me .info .hobbies .content .icon{float: left;width: 12%;margin-right: 5%}
+.about-me .info .hobbies .content .icon img{max-width: 100%;margin: 40px 10px 0 0}
+
+
+.about-me .info .hobbies > div {
+  float: left;
+  width: 50%;
+
+}
+
+
+.my-skills {
+  padding-top:30px;
+  padding-bottom:50px;
+  overflow: hidden;
+  background-color: #EEF7FF;
+}
+
+
+.my-skills .skills,
+.my-skills .profgress {
+  width: 50%;
+  float: left;
+}
+.my-skills .skills h2{
+  margin: 20px 0 20px 40px;
+  color: #7AB2B2;
+}
+
+.my-skills .skills p{
+  margin: 0 0 10px 40px;
+  line-height: 1.6;
+  color: #4D869C;
+
+}
+.my-skills .skills p:last-of-type{
+  margin-top: 25px;
+}
+.my-skills .skills button {
+
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.my-skills .profgress .technique {margin-left: 50px}
+.my-skills .profgress .technique h3{
+  color: #7AB2B2;
+}
+
+.my-skills .profgress .technique div {
+  background-color: #f2f2f2;
+  height: 25px;
+}
+
+.my-skills .profgress .technique div span{
+  background-color: #4D869C;
+
+  width: 70%;
+  height: 25px;
+  display: block;
+  line-height: 25px;
+  text-align: right;
+  color: #fff;
+  font-weight: bold;
+
+}
+.portfolio {
+  padding-top: 50px;
+  padding-bottom: 70px;
+  text-align: center;
+  background-color: #CDE8E5;
+}
+.portfolio h2{
+  color: #4D869C;
+}
+
+.portfolio p{
+  font: italic bold 18px/1.8 Tahoma, Arial;
+
+
+}
+.portfolio .our-work {
+  overflow: hidden;
+  text-align: center;
+}
+
+.portfolio .our-work > div {
+  float: right;
+  width: 33.333333%;
+  margin-bottom: 10px;
+}
+
+
+.portfolio .our-work > div img {
+  width: 92%;
+  margin: 10px;
+  padding: 3px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+
+
+
+}
+main{
+  height: 20%;
+}
+marquee{
+  background-color: #fdfdfd;
+}
+article img{
+    width: 70%;
+    transform: scale(1);
+    border-radius: 50px;
+    border: 5px double white;
+}
+img:hover{
+    transform: scale(1.2);
+}
+
+        </style>
+
+
+        <header>
+
+            <nav>
+                <ul>
+                      <li><a href="home.html" target="_blank">Home</a></li>
+                      <a href="about.html" target="_blank"> About</a>
+                      <li><a href="call.html" target="_blank">Call me</a></li>
+
+
+                </ul>
+
+            </nav>
+
+        </header>
+
+
+<br>
+
+<details style="background:rgb(243, 243, 243);font-weight:bold;">
+    <summary style="border: 2px solid white;padding: 10px;">Leader Taha Ahmed Rajeh</summary>
+    <p style="color: #4D869C;">This is a Page </p>
+   </details>
+   <br>
+
+
+<div class="about-me">
+ <div class="container">
+   <div class="image">
+     <img src="5.jpg">
+
+   </div>
+   <div class="info">
+    <h2>About me</h2>
+    <p>انا طه راجح من مواليد 93 و درست التقنية و المعلومات ..قريبآ لديه شركة التسويق الالكتروني و للتصاميم وانشاء قواعد البيانات </p>
+    <!--    <p>Information technology (IT) is the use of computers to create, process, store,</p>-->
+      <div  class="hobbies">
+        <div>
+          <h3 style="width:20%">Web Design</h3>
+          <!--    <p>Information technology (IT) is the use of computers to create, process, store,</p>-->
+        </div>
+        <div>
+        <h3 style="width:20%"  "height:20%">Logo</h3>
+        <!--    <p>Information technology (IT) is the use of computers to create, process, store,</p>-->
+         </div>
+         <div>
+             <h3 style="width:20%">Online Marking</h3>
+             <!--    <p>Information technology (IT) is the use of computers to create, process, store,</p>-->
+           </div>
+           <div>
+             <h3 style="width:20%">Seo</h3>
+             <!--    <p>Information technology (IT) is the use of computers to create, process, store,</p>-->
+           </div>
+        </div>
+    </div>
+   </div>
+ </div>
+
+
+
+   <div class="my-skills">
+     <div class="container">
+       <div class="skills">
+         <h2>My Skills</h2>
+         <marquee>
+
+         <p>Information technology (IT) is the use of computers to create, process, store, and exchange all kinds of electronic data</p>
+         <p>Information technology (IT) is the use of computers to create, process, store,</p>
+         </marquee>
+       </div>
+       <div class="profgress">
+         <div class="technique">
+           <h3>html/Css</h3>
+           <div>
+             <span style="width:83%">83% &nbsp;</span>
+
+           </div>
+
+         </div>
+         <div class="technique">
+           <h3>php/Mysql</h3>
+           <div>
+             <span style="width:88%">88% &nbsp;</span>
+
+           </div>
+
+         </div>
+         <div class="technique">
+           <h3>javascript</h3>
+           <div>
+             <span style="width:90%">90% &nbsp;</span>
+
+           </div>
+
+         </div>
+         <div class="technique">
+           <h3>desgin</h3>
+           <div>
+             <span style="width:70%">70% &nbsp;</span>
+
+           </div>
+
+         </div>
+
+
+       </div>
+
+     </div>
+
+
+   </div>
+
+
+
+
+
+
+   <div class="portfolio">
+    <div class="container">
+      <h2>portfolio</h2>
+      <p style="color: #4D869C;">نماذج من اعمالي</p>
+      <div class="our-work">
+        <main>
+          <article><img src="suppo.jpg" height="200" width="90%"/></article>
+
+          <br>
+          <article><img src="tp.png" height="200" width="90%"/></article>
+
+          <br>
+          <article><img src="ak.png" height="200" width="90%"/></article>
+
+          <br>
+          <article><img src="tl.jpg" height="200" width="90%"/></article>
+
+          <br>
+          <article><img src="ma2.jpg" height="200" width="90%"/></article>
+          <br>
+          <article><img src="HBL3.jpg" height="200" width="90%"/></article>
+
+          <br>
+          <article><img src="fut.jpg" height="200" width="90%"/></article>
+
+          <br>
+          <article><img src="br.jpg" height="200" width="90%"/></article>
+
+          <br>
+          <article><img src="brt.jpg" height="200" width="90%"/></article>
+
+          <br>
+          <article><img src="exc.jpg" height="200" width="90%"/></article>
+
+          <br>
+          <article><img src="sud2.jpg" height="200" width="90%"/></article>
+
+          <br>
+          <article><img src="sud.jpg" height="200" width="90%"/></article>
+          <br>
+          <article><img src="21.jpg" height="200" width="90%"/></article>
+          <br>
+          <article><img src="hbl.jpg" height="200" width="90%"/></article>
+          <br>
+          <article><img src="11.png" height="200" width="90%"/> </article>
+          <br>
+          <article><img src="16.png" height="200" width="90%"/></article>
+          <br>
+          <article><img src="15.png" height="200" width="90%"/></article>
+          <br>
+          <article><img src="19.png" height="200" width="90%"/></article>
+          <br>
+          <article><img src="20.png" height="200" width="90%"/></article>
+          <br>
+          <article><img src="21.png" height="200" width="90%"/></article>
+          <br>
+          <article><img src="22.png" height="200" width="90%"/></article>
+          <br>
+          <article><img src="24.jpg" height="200" width="90%" /></article>
+          <br>
+          <article><img src="25.png" height="200" width="90%"/></article>
+          <br>
+          <article><img src="26.png" height="200" width="90%"/></article>
+          <br>
+          <article><img src="27.png" height="200" width="90%"/></article>
+          <br>
+          <article><img src="32.png" height="200" width="90%"/></article>
+          <br>
+          <article><img src="35.png" height="200" width="90%"/></article>
+          <br>
+          <article><img src="38.jpg" height="200" width="90%"/></article>
+          <br>
+          <article><img src="b.png" height="200" width="90%"/></article>
+          <br>
+          <article><img src="a.png" height="200" width="90%"/></article>
+          <br>
+          <article><img src="40.png" height="200" width="90%"/></article>
+          <br>
+          <article><img src="41.png" height="200" width="90%"/></article>
+          <br>
+          <article><img src="42.png" height="200" width="90%"/></article>
+          <br>
+          <article><img src="44.png" height="200" width="90%"/></article>
+          <br>
+          <article><img src="j.png" height="200" width="90%"/></article>
+          <br>
+          <article><img src="45.png" height="200" width="90%"/></article>
+          <br>
+          <article><img src="46.jpg" height="200" width="90%"/></article>
+          <br>
+          <article><img src="47.jpg" height="200" width="90%"/></article>
+          <br>
+          <article><img src="48.jpg" height="200" width="90%"/></article>
+          <br>
+          <article><img src="49.jpg" height="200" width="90%"/></article>
+          <br>
+          <article><img src="اعلان30.jpg" height="200" width="90%"/></article>
+          <br>
+          <article><img src="اعلان34.jpg" height="200" width="90%"/></article>
+          <br>
+          <article><img src="HLO.jpg" height="200" width="90%"/></article>
+          <br>
+          <article><img src="اعلان2.jpg" height="200" width="90%"/></article>
+          <br>
+          <article><img src="tre.jpg" height="200" width="90%"/></article>
+          <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </main>
+
+
+
+
+
+
+        <div>
+
+      </div>
+
+    </div>
+
+</div>
+
+<hr>
+
+
+   <marquee>
+    <img src="6.jpg" height="200" width="400" />
+    <img src="2.png" height="200" width="400" />
+
+
+
+
+
+   </marquee>
+
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+
+
+
+    </body>
+</html>
